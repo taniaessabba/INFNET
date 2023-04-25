@@ -1,0 +1,53 @@
+void main() {
+  var aux = "Teste variável";
+  var perfil;
+
+  String cidade = "Rio de Janeiro";
+  print(cidade);
+  String bairro;
+  //print(bairro);
+
+  print(aux);
+
+  for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }
+
+  perfil = "texto";
+  print(perfil);
+  perfil = 8.0;
+  print(perfil);
+  perfil = true;
+  print(perfil);
+
+  //Operadores aritméticos
+  print(2 + 4);
+  print(2 - 4);
+  print(16 / 9);
+  //Arredondamento
+  print(16 ~/ 9);
+  int num = 10;
+  print(-num);
+  print(num++); //10
+  print(++num); //12 - pois incrementou no comando acima e nesse comando
+  
+  //Operadores aritméticos de atribuição
+  int idade = 90;
+  idade += 10; // idade = idade + 10
+  print(idade);
+  
+  //Operadores de comparação
+  //== verificar se é igual
+  print(2==10); // false
+  print(2==2); // true
+  print(2!=2); //false
+  print("2>3");
+  print(2>3); //false
+  print("2<3");
+  print(2<3); // true
+  print("Conjunção");
+  print(true && true);
+  print("Disjunção");
+  print(false || false);
+  
+}
